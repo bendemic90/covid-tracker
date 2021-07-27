@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <div class="container-flex">
+  <div class="container-flex p-5">
     <router-view/>
   </div>
 </template>
