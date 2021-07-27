@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <div class="container">
+  <div class="container-flex">
     <router-view/>
   </div>
 </template>
@@ -10,7 +10,7 @@
 
   export default {
     components: {
-      Header,
+      Header
     },
-  }
+  };
 </script>
